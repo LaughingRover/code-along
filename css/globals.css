@@ -28,13 +28,26 @@ html, body {
 }
 
 button {
-	font-size: 1.2rem;
-	font-weight: 540;
-	padding: 0.6rem;
+    border: 2px solid;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	font-weight: 550;
+    letter-spacing: 0;
+    text-decoration: none;
 	background-color: transparent;
 }
 
 button:hover {
+    background-color: var(--driver-btn-blue);
+}
+
+.cta-btn {
+    font-size: 1.2rem;
+    color: var(--driver-navy-blue);
+    border-color: var(--driver-navy-blue);
+}
+
+.cta-btn:hover{
     background-color: var(--driver-btn-blue);
 }
 
