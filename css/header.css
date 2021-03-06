@@ -1,0 +1,44 @@
+/*  ===========================
+        HEADER
+    ===========================
+*/
+
+header {
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    font-size: 1.5rem;
+    /* box-shadow: 0px 3px var(--driver-shadow-hue); */
+    background-color: var(--driver-light-blue);
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    padding: 0 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div span {
+    color: var(--driver-thick-blue);
+}
+
+.nav-bar {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+.cta:hover{
+    background-color: var(--driver-btn-blue);
+}

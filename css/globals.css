@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --driver-bg-white: #f3eff5;
+    --driver-text-white: #eef9fe;
+    --driver-light-blue: #effaff;
+    --driver-shadow-hue: #ebe7ed;
+	--driver-btn-blue: #4685b5;
+    --driver-thick-blue: #24527e;
+    --driver-navy-blue: #23333a;
+}
+
+/*  ===========================
+        Generic
+    ===========================
+*/
+
+html, body {
+    width: 100vw;
+    font-size: 16px;
+	overflow-x: hidden;
+	color: var(--driver-navy-blue);
+    background-color: var(--driver-bg-white);
+}
+
+button {
+	font-size: 1.2rem;
+	font-weight: 540;
+	padding: 0.6rem;
+	background-color: transparent;
+}
+
+button:hover {
+    background-color: var(--driver-btn-blue);
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    letter-spacing: .05em;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+/* ----------------------------- */
+
+section {
+    height: 700px;
+    position: relative;
+}
+
+.section-heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-heading hr {
+    width: 13.5rem;
+    height: 0.2rem;
+    border: none;
+    margin-bottom: 3rem;
+    background-color: var(--driver-thick-blue);
+}
+
+.section-heading h2 {
+    font-size: 2.2rem;
+}
+
+.section-heading p{
+    font-size: 1.3rem;
+}
