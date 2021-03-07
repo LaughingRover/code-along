@@ -18,6 +18,10 @@ header {
     text-decoration: none;
 }
 
+div.logo a{
+    text-decoration: none;
+}
+
 nav {
     height: 10vh;
     display: flex;
@@ -37,8 +41,4 @@ nav div span {
     align-items: center;
     font-size: 1.2rem;
     font-weight: 550;
-}
-
-.cta:hover{
-    background-color: var(--driver-btn-blue);
 }

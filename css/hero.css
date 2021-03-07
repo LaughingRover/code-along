@@ -33,6 +33,8 @@
 }
 
 .hero-copy button {
+    font-size: 18px;
+	padding: 0.8rem;
     color: var(--driver-text-white);
     border-color: var(--driver-text-white);
 }
